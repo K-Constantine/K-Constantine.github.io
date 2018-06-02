@@ -1,0 +1,62 @@
+/*
+* Bootstrap overrides https://getbootstrap.com/docs/4.0/getting-started/theming/
+* All values defined in bootstrap source
+* https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss can be overwritten here
+* Make sure not to add !default to values here
+*/
+
+// Colors:
+// Grayscale and brand colors for use across Bootstrap.
+
+$primary:             #0000ef;
+$accent:              #28a745;
+$success:             #28a745;
+$info:                #17a2b8;
+$warning:             #ffc107;
+$danger:              #dc3545;
+
+$color:               #0c0c0c;
+$color-secondary:     #dcd6d5;
+
+$gray:                #f2f2f2;
+$border-color:        #0c0c0c;
+$forground-color:     #0000ef;
+$background-color:    #0000ef;
+
+$secondary:           #cbdff1;
+
+// Options:
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded:            true;
+$enable-shadows:            false;
+$enable-gradients:          false;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Components:
+// Define common padding and border radius sizes and more.
+
+$border-radius:          .15rem;
+$border-radius-lg:       .125rem;
+$border-radius-sm:       .1rem;
+
+// Body:
+// Settings for the `<body>` element.
+
+$column-count:           3;
+
+$body-bg:                   #e4e5e6;
+
+// Typography:
+// Font, line-height, and color for body text, headings, and more.
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+$font-size-xs:                ($font-size-base * .75) !default;
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
+$column-gutter-width:         $grid-gutter-width / 2;
